@@ -1,4 +1,4 @@
-## latam-colmak
+## latam-colemak
 ### Latin American Spanish Colmak keyboard layout
 
 This aims to provide a «good enough» implementation of the latam Colmak keyboard layout designed by DreymaR (for more info, check http://forum.colemak.com/viewtopic.php?id=1607). It is completely functional in X11, while the terminal version is currently WIP.
