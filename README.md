@@ -34,7 +34,7 @@ After that, open as root the first file listed and, under the '! variant' list, 
 
 Save it and open as root the second file, look for the latam layout and edit to add these:
 
-    <layout>
+'''    <layout>
       <configItem>
         <name>latam</name>
 		          
@@ -55,9 +55,10 @@ Save it and open as root the second file, look for the latam layout and edit to 
 	  </configItem>
         </variant>
   ...
-      </variantList>
+  
+  </variantList>
     </layout>
-
+'''
 Then you can try it using:
 
 $ setxkbmap latam colmak
