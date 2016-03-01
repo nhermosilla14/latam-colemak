@@ -1,6 +1,9 @@
 ## latam-colemak
 ### Latin American Spanish Colmak keyboard layout
 
+
+##Update!! Added console keymap (thanks to Jorge "Jorgicio" Pizarro)
+
 This aims to provide a «good enough» implementation of the latam Colmak keyboard layout designed by DreymaR (for more info, check http://forum.colemak.com/viewtopic.php?id=1607). It is completely functional in X11, while the terminal version is currently WIP.
 
 Another version, slightly different, is provided too, with the sole modification of keeping WASD as in QWERTY, to avoid troubles while gaming.
@@ -16,6 +19,8 @@ The colemak-gaming version looks similar, but WASD remains untouched from QWERTY
 
 
 #Installation
+
+# X.org
 
 First of all, do a backup of the following files:
 
@@ -62,7 +67,18 @@ Save it and open as root the second file, look for the latam layout and edit to 
 
 Then you can try it using:
 
-$ setxkbmap latam colmak
+$ setxkbmap latam colemak
+
+# TTY
+
+To install the terminal version, copy both *.map.gz files to /usr/share/kbd/keymaps/i386/colemak/, and run this on the TTY:
+
+
+$ loadkeys colemak-la
+
+or
+
+$ loadkeys colemak-la-gaming
 
 
 Please report if you find any issue!

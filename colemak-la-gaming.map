@@ -1,0 +1,80 @@
+! Latin American Colemak keyboard.  Modified by Jorgicio
+
+keymaps 0-2,4-6,8-10,12-14
+alt_is_meta
+include "linux-with-alt-and-altgr"
+strings as usual
+
+keycode   1 = Escape
+keycode   2 = one              exclam
+keycode   3 = two              quotedbl
+keycode   4 = three            numbersign
+keycode   5 = four             dollar
+keycode   6 = five             percent
+keycode   7 = six              ampersand
+keycode   8 = seven            slash
+keycode   9 = eight            parenleft
+keycode  10 = nine             parenright
+keycode  11 = zero             equal
+keycode  12 = apostrophe       question         backslash
+	altgr	control	keycode  12 = Control_backslash
+keycode  13 = questiondown     exclamdown
+keycode  14 = Delete
+	control	keycode  14 = BackSpace
+	alt     keycode  14 = Meta_BackSpace
+
+
+keycode  15 = Tab
+	shift	keycode  15 = Meta_Tab
+keycode  16 = q
+keycode  17 = w
+keycode  18 = f
+keycode	 19 = p
+keycode	 20 = g
+keycode	 21 = j
+keycode	 22 = l
+keycode	 23 = u
+keycode	 24 = y
+keycode	 25 = +ntilde	+Ntilde
+keycode  26 = dead_acute       dead_diaeresis
+keycode  27 = plus             asterisk         asciitilde
+keycode  28 = Return
+	alt	keycode  28 = Meta_Control_m
+keycode  29 = Control
+
+keycode	 30 = a
+keycode	 31 = s
+keycode	 32 = d
+keycode	 33 = t
+keycode	 34 = r
+keycode	 35 = h
+keycode	 36 = n
+keycode	 37 = +e 	+E	+euro
+keycode	 38 = i
+keycode	 39 = o
+keycode  40 = braceleft        bracketleft      asciicircum
+	altgr	control	keycode  40 = Control_asciicircum
+	
+keycode  41 = bar              masculine        notsign
+keycode  42 = Shift
+keycode  43 = braceright       bracketright     grave
+	shift	control	keycode  43 = Control_bracketright
+keycode  44 = z
+keycode	 45 = x
+keycode	 46 = c
+keycode	 47 = v
+keycode	 48 = b
+keycode	 49 = k
+keycode	 50 = m
+keycode	 51 = comma	semicolon
+keycode	 52 = period	colon
+keycode	 53 = minus            underscore
+	shift	control	keycode  53 = Control_underscore
+
+keycode  54 = Shift
+keycode  56 = Alt
+keycode  57 = space
+	control	keycode  57 = nul
+keycode  58 = Caps_Lock
+keycode  86 = less             greater
+keycode  97 = Control
