@@ -81,4 +81,11 @@ or
 $ loadkeys colemak-la-gaming
 
 
+If everything works fine, open /etc/vconsole.conf and edit it:
+
+
+KEYMAP=colemak-la
+...
+
+
 Please report if you find any issue!
