@@ -3,7 +3,7 @@
 // Modified for a real Latin American Keyboard by Fabian Mandelbaumi
 
 // Colemak
-// Colemak original layout by eDreymaR. Implementation and gaming mod by Nicolás Hermosilla
+// Colemak layout, inspired by the works of DreymaR. Implementation and new gaming mod by Nicolás Hermosilla
 
 default  partial alphanumeric_keys
 xkb_symbols "basic" {
@@ -132,7 +132,7 @@ xkb_symbols "dvorak" {
     include "level3(ralt_switch)"
 };
 
-// Latin American Spanish Colemak mapping (by eDreymaR)
+// Latin American Spanish Colemak mapping (as designed by DreymaR)
 partial alphanumeric_keys
 xkb_symbols "colemak" {
 
@@ -193,8 +193,7 @@ xkb_symbols "colemak" {
     include "level3(ralt_switch)"
 };
 
-
-// Latin American Spanish Colemak mapping (by eDreymaR), customized to
+// Latam colemak layout (by NH) customized to
 // keep WASD in a qwerty-like layout
 partial alphanumeric_keys
 xkb_symbols "colemak-gaming" {
