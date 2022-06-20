@@ -1,12 +1,13 @@
 ## latam-colemak
-### Latin American Spanish Colmak keyboard layout
+### Latin American Spanish Colemak keyboard layout
 
+### THIS WORK IS INSPIRED, BUT IN NO WAY ENDORSED BY DREYMAR. IT'S ALSO NOT BEING DEVELOPED ANYMORE.
 
-##Update!! Added console keymap (thanks to Jorge "Jorgicio" Pizarro)
+#### Update!! Added console keymap (thanks to Jorge "Jorgicio" Pizarro)
 
-This aims to provide a «good enough» implementation of the latam Colmak keyboard layout designed by DreymaR (for more info, check http://forum.colemak.com/viewtopic.php?id=1607). It is completely functional in X11, while the terminal version is currently WIP.
+This aims to provide a «good enough» implementation of the latam Colemak keyboard layout designed by DreymaR (for more info, check http://forum.colemak.com/viewtopic.php?id=1607). It is completely functional in X11, while the terminal version is currently WIP.
 
-Another version, slightly different, is provided too, with the sole modification of keeping WASD as in QWERTY, to avoid troubles while gaming.
+Another version, slightly different (but not made by DreymaR), is provided too, with the sole modification of keeping WASD as in QWERTY, to avoid troubles while gaming.
 
 #Important features:
 - The layout is near nearly identical to this:
